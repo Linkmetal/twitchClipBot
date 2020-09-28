@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/Linkmetal/twitchClipBot#readme",
   "dependencies": {
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "tmi.js": "^1.5.0"
+    "tmi.js": "^1.5.0",
+    "twitch": "^4.2.4",
+    "twitter": "^1.7.1"
   }
 }

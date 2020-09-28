@@ -1,6 +1,6 @@
 const tmi = require('tmi.js');
-require('dotenv').config()
-
+require('dotenv').config();
+require('twitch/api/twitchApi.js');
 
 // Define configuration options
 const opts = {
@@ -12,8 +12,6 @@ const opts = {
     process.env.CHANNEL_NAME
   ]
 };
-
-console.log(opts)
 
 // Create a client with our options
 const client = new tmi.client(opts);
